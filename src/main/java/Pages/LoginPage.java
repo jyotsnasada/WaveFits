@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import java.util.concurrent.TimeUnit;
 
 public class LoginPage{
+    //method for login
+
     public static WebElement txtbxUserName(WebDriver driver) {
         WebElement element = driver.findElement(By.xpath(".//*[@id='exampleInputEmail1']"));
         return element;
